@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100vh;
+}
+
+body{
+    background-color: #87CEFA;
+    color: white;
+    font: Archivo;
+    display: flex;
+  /*  align-items: center;*/
+    justify-content: center;
+}
+
+#container{
+    width: 90vw;
+    max-width: 700px;
+}
+
+@media(max-width:1100px){
+    :root{
+      /*  font-size: 62.5%;*/
+    }
+}
+
+body,
+input,
+button,
+textarea {
+    font: 1.2rem Poppins;
+    color:  #FFA500;
+    
+}
+.logo-container img{
+    height: 3.2rem;
+}
+
+.logo-container{
+    text-align: center ;
+    padding-top: 3rem;
+    margin-bottom: 3.2rem;
+}
+
+.logo-container h2{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin-top: 0.8rem;
+    color: #FF4500;    
+}
+.container-image img{
+    width: 100%;
+    margin-bottom: 2.4rem;
+}
+.footer{
+    display: flex;
+    margin: 0.8rem;
+    align-items: center;
+    justify-content: center;
+}
+.footer button{
+    font-size: 1rem;
+    width: 15rem;
+    height: 3.2rem ;
+    border-radius: 0.8rem;
+    padding-left: 0.6rem;
+    margin-right: 1.4rem;
+    border: solid #87CEFA;
+    background: #6495ED;
+    transition: background 0.2s;
+}
+.footer button:hover{
+    background: #4682B4;
+}
+.footer button a{
+    text-decoration: none;
+   color: rgb(247, 231, 210);
+    font: 200 1.4rem Poppins;
+    padding: 0.8rem;
+}
+/*@media(min-width:1100px){
+
+    .logo-container h2{
+        font-weight: 500;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        margin-top: 0.8rem;
+    }
+}
